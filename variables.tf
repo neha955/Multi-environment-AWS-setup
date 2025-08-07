@@ -1,0 +1,10 @@
+variable "vpc_cidr" {}
+variable "subnet_cidr" {}
+variable "availability_zone" {}
+variable "ami" {}
+variable "instance_type" {}
+variable "env" {}
+variable "from_port" {}
+variable "to_port" {}
+variable "protocol" {}
+variable "cidr_blocks" {}

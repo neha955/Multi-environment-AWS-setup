@@ -1,0 +1,10 @@
+vpc_cidr = "10.2.0.0/16"
+subnet_cidr = "10.2.2.0/24"
+availability_zone = "ap-south-1a"
+ami = "ami-0d54604676873b4ec"
+instance_type = "t2.micro"
+env = "staging"
+from_port = "22"
+to_port = "22"
+protocol = "tcp"
+cidr_blocks = ["0.0.0.0/0"]
