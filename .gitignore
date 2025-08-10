@@ -1,2 +1,6 @@
+# Terraform state
+terraform.tfstate
+terraform.tfstate.*
 .terraform/
-.terraform/
+.terraform.tfstate.d/
+crash.log
